@@ -7,7 +7,7 @@ It's based on nginx docker image.
 ## Quick start
 Just launch the container to see it in action
 ```
-docker run --name docsify-example -d -p 8080:80 justcoded/docsify:latest
+docker run --name docsify-example -d -p 8080:80 ghcr.io/justcoded/docsify:latest
 ```
 Access the demo page on 127.0.0.1:8080.
 
@@ -25,7 +25,7 @@ _navbar.md - Top nav
 version: '3.7'
 services:
   docsify:
-    image: justcoded/docsify:latest
+    image: ghcr.io/justcoded/docsify:latest
     volumes:
         - ./docs/:/usr/share/nginx/html/docs
     ports:
