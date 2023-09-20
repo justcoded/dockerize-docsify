@@ -2,7 +2,7 @@
     const httpsRegex = /^https?:\/\//;
     // line start or not ! (to skip images), then link text [...], then internal link destination ([a-z]...)
     const markdownLinkRegex = /(^|[^!])\[.*?\](\([a-zA-Z]+.*?\))/g;
-    const folderNameRegex = /(.*?)\//;
+    const folderNameRegex = /(.+)\//;
 
     const folderRelatedLinks = function (hook, vm) {
         hook.beforeEach(function (markdown) {
