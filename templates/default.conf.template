@@ -5,6 +5,8 @@ server {
 
     ssi on;
     set $SSI_INDEX_TITLE "${OPT_INDEX_TITLE}";
+    set $SSI_DOCSIFY_CONF "${OPT_DOCSIFY_CONF}";
+    set $SSI_PLUGIN_FOLDER_RELATED_LINKS "${OPT_PLUGIN_FOLDER_RELATED_LINKS}";
 
     #access_log  /var/log/nginx/host.access.log  main;
 
