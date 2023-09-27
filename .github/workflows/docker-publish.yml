@@ -22,7 +22,7 @@ env:
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
   #IMAGE_NAME: ${{ github.repository }}
-  IMAGE_NAME: justcoded/docsify_test
+  IMAGE_NAME:  ghcr.io/justcoded/docsify_test
 
 jobs:
   build:
