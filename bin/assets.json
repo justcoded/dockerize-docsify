@@ -1,0 +1,69 @@
+{
+  "assets": [
+    {
+      "asset": "js/docsify.min.js",
+      "source": "https://cdn.jsdelivr.net/npm/docsify@4",
+      "info": "https://docsify.js.org/#/quickstart"
+    },
+    {
+      "asset": "js/docsify-themeable.min.js",
+      "source": "https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js",
+      "info": "https://jhildenbiddle.github.io/docsify-themeable/#/quick-start"
+    },
+    {
+      "asset": "js/mermaid.min.js",
+      "source": "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"
+    },
+    {
+      "asset": "js/plugins/code-inline.min.js",
+      "source": "https://unpkg.com/@rakutentech/docsify-code-inline/dist/index.min.js",
+      "info": "https://www.npmjs.com/package/@rakutentech/docsify-code-inline"
+    },
+    {
+      "asset": "js/plugins/docsify-copy-code.min.js",
+      "source": "https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"
+    },
+    {
+      "asset": "js/plugins/docsify-mermaid.min.js",
+      "source": "https://unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js",
+      "info": "https://github.com/Leward/mermaid-docsify"
+    },
+    {
+      "asset": "js/plugins/search.min.js",
+      "source": "https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"
+    },
+    {
+      "asset": "css/docsify4-themes-vue.css",
+      "source": "https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"
+    },
+    {
+      "asset": "css/themeable-simple.css",
+      "source": "https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
+    },
+    {
+      "asset": "css/themeable-simple-dark.css",
+      "source": "https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"
+    }
+  ],
+  "prism": {
+    "asset": "js/prism/*",
+    "source": "https://raw.githubusercontent.com/PrismJS/prism/v1.29.0/components/*",
+    "supports": [
+      "prism-bash.min.js",
+      "prism-diff.min.js",
+      "prism-docker.min.js",
+      "prism-git.min.js",
+      "prism-groovy.min.js",
+      "prism-ignore.min.js",
+      "prism-ini.min.js",
+      "prism-json.min.js",
+      "prism-makefile.min.js",
+      "prism-php.min.js",
+      "prism-regex.min.js",
+      "prism-scss.min.js",
+      "prism-sql.min.js",
+      "prism-typescript.min.js",
+      "prism-yaml.min.js"
+    ]
+  }
+}
