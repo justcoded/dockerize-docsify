@@ -9,34 +9,45 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ---
 <!--- END HEADER -->
 
-## [1.3.1]() (2023-09-20)
-### Features
+## [1.4.0]() _(2024-02-22)_
+### Added
 
-feat: add docsify plugins - mermaid, copy code blocks
+* Script to auto-download latest assets files
 
----
+### Changed
 
-## [1.3.0]() (2023-09-20)
-### fix
-
-* fix: docsify folder relates links custom plugin
-
+* Updated assets to latest versions
 
 ---
 
-## [1.2.0]() (2023-09-20)
+## [1.3.1]() _(2023-09-20)_
+### Added
+
+* Add docsify plugins - mermaid, copy code blocks
+
+---
+
+## [1.3.0]() _(2023-09-20)_
 ### Fixed
-* fix: docsify image custom plugin to fix LK links
+
+* Docsify folder relates links custom plugin
+
+
+---
+
+## [1.2.0]() _(2023-09-20)_
+### Fixed
+* Docsify image custom plugin to fix LK links
 
 -------------------------------------------------------------------------
 
-## [1.1.0]() (2023-09-20)
-### Feature
-* feat: docsify image added support of docker env for config
+## [1.1.0]() _(2023-09-20)_
+### Added
+* Docsify image added support of docker env for config
 
 -------------------------------------------------------------------------
 
-## [1.0.0]() (2023-01-03)
+## [1.0.0]() _(2023-01-03)_
 ### Added
 * Docsify image beta version
 * Added prism plugins for code highlight to docsify image
