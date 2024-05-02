@@ -17,3 +17,12 @@
 .mermaid {
   background-color: #fff;
 }
+
+.sidebar-nav ul > li.collapse > a {
+  color: var(--sidebar-nav-link-color);
+  background: var(--sidebar-nav-pagelink-background) !important;
+}
+.sidebar-nav ul > li.collapse.active > a {
+  color: var(--sidebar-nav-link-color--active, var(--sidebar-nav-link-color));
+  background: var(--sidebar-nav-pagelink-background--active) !important;
+}

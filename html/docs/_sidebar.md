@@ -1,1 +1,16 @@
-* [Getting Started](/)
+-   [Getting Started](start/before-you-start.md)
+    -   [Before You start](start/before-you-start.md)
+    -   [Requirements](start/requirements.md)
+    -   [Installation](start/installation.md)
+    -   [Docker Containers](start/docker-containers.md)
+    -   [Makefiles Reference](start/makefile-reference.md)
+    -   [Environment Variables](start/environment-variables.md)
+    -   [Sitemap](start/sitemap.md)
+-   Application Concepts
+    -   [Development Requirements](guides/development-requirements.md)
+    -   [File Replacer](guides/file-replacer.md)
+    -   [Application Structure](guides/application-structure.md)
+    -   [Custom Modules](guides/custom-modules.md)
+    -   [Assets and Styles](guides/styles-assets.md)
+-   Security
+    -   [Web Security](security/web-security.md)

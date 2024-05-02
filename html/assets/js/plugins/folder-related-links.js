@@ -14,10 +14,10 @@
             const folder = vm.route.file.match(folderNameRegex)[1];
             const matches = markdown.matchAll(markdownLinkRegex);
             let newMarkdown = markdown;
-          console.log([folder, matches]);
+
 
             for (const [match, firstSymbol, urlInBrackets] of matches) {
-              console.log([match, firstSymbol, urlInBrackets])
+
                 const url = urlInBrackets.slice(1, -1);
 
                 if (firstSymbol === '!' || httpsRegex.test(url)) {
