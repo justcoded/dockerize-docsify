@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ---
 <!--- END HEADER -->
 
+## [1.5.0]() _(2024-05-03)_
+### Added
+
+* Open-close for first level of sidebar menu
+
+---
+
 ## [1.4.0]() _(2024-02-22)_
 ### Added
 
